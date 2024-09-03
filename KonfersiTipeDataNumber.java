@@ -11,6 +11,7 @@ public class KonfersiTipeDataNumber {
 
         //number overflow
         int tipeDataInteger = 128;
-        byte tipeDataByteConverted = (byte) tipeDataInteger
+        byte tipeDataByteConverted = (byte) tipeDataInteger;
+        System.out.println(tipeDataByteConverted);
     }
 }
